@@ -34,3 +34,8 @@ Este simulador foi desenvolvido para demonstrar o algoritmo de escalonamento de 
 5. **Interpretar os Resultados**  
    - Na seção de resultados, você verá uma lista de processos com o tempo total até o momento em que cada processo foi executado.
    - O tempo total final será exibido ao final do ciclo de execução de todos os processos.
+
+## Integrantes
+
+- Albert Luis
+- Lucas Giovine
