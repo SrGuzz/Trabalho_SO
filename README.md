@@ -9,7 +9,7 @@ Este simulador foi desenvolvido para demonstrar o algoritmo de escalonamento de 
 ## Instruções de Uso
 
 **Acesse o Simulador**  
-- Acesse o site através do GitHub Pages ou abra o arquivo `index.html` no navegador. No site, você poderá selecionar qual das entregas do trabalho gostaria de visualizar (primeira, segunda ou terceira). Atualmente, apenas a primeira entrega está acessível.
+- Acesse o site [aqui](https://trabalho-so.netlify.app/). Uma vez no site, você poderá selecionar qual das entregas do trabalho gostaria de visualizar (primeira, segunda ou terceira). Atualmente, apenas a primeira entrega está acessível.
 
 ### Primeira entrega
 
