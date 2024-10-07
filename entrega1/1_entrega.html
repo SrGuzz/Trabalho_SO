@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-12">
+            <div class="col-12">
+                <h4 class="n-entrega text-center mb-2">1° Entrega</h4>
+                <h5>Descrição da Entrega:</h5>
+                <p class="descricao">O objetivo deste trabalho é desenvolver um simulador que demonstre a gerência de recursos em um sistema 
+                   computacional, com foco no escalonamento de processos. A implementação será realizada em etapas, sendo que, 
+                   na primeira parte, será escolhido um algoritmo de escalonamento de processos, cujo funcionamento será 
+                   simulado por um programa. <br> A documentação do projeto inclui uma explicação detalhada sobre o algoritmo de 
+                   escalonamento selecionado e um manual do usuário. O manual irá guiar o usuário sobre como inserir os dados 
+                   dos processos e como utilizar o simulador para testar o comportamento do algoritmo.</p>
+            </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </div> 
+
+    <div class="container">
+        <div class="row">
+            <h4 class="text-center titulo-entrega">Ecalonamento Round Robin</h4>
+            <h5>Descrição do Algoritmo:</h5>
+            <p class="descricao">
+              O algoritmo de escalonamento Round Robin é um dos mais simples e mais antigos algoritmos de escalonamento de processos. 
+              Ele é utilizado em sistemas operacionais para escalonar processos de forma justa, garantindo que todos os processos 
+              tenham a mesma quantidade de tempo de CPU. <br> O algoritmo funciona da seguinte forma: cada processo é executado por 
+              um pequeno intervalo de tempo chamado de quantum. Quando o quantum expira, o processo é interrompido e colocado no 
+              final da fila de processos prontos. O próximo processo na fila é então executado por um quantum de tempo, e assim por 
+              diante. <br> O algoritmo Round Robin é eficiente para sistemas em que os processos têm tempos de execução semelhantes, 
+              pois garante que todos os processos tenham a mesma quantidade de tempo de CPU. No entanto, ele pode ser ineficiente 
+              para processos com tempos de execução muito diferentes, pois pode resultar em muitas trocas de contexto e desperdício 
+              de tempo de CPU.
+            </p>
+            <div id="logica" class="row">
+              <div class="input-group mb-3">
+                <span class="input-group-text text-white">Número de processos</span>
+                <input type="number" class="form-control" aria-label="nProcessos" id="nProcessos">
+              </div>
+              <p id="erronProcessos" class="small text-danger"></p>
+              <div class="input-group mb-3">
+                <span class="input-group-text text-white ">Quantum</span>
+                <input type="number" class="form-control" aria-label="quantum" id="quantum">
+              </div>
+              <p id="erroQuantum" class="small text-danger"></p>
+              <div>
+                <button class="btn" id="btnGerar">Gerar Processos</button>
+              </div>
+            </div>
+
+            <div id="processos">
+
+            </div>
+
+            <div class="mt-4 d-flex" id="resultado">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="1-entrega.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

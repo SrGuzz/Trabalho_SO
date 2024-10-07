@@ -1,0 +1,75 @@
+body{
+    background-color: #171717;
+    color: white;
+}
+.descricao{
+    text-align: justify;
+}
+a, .n-entrega, .titulo-entrega{
+    text-decoration: none;
+    color: yellowgreen;
+}
+h3{
+    color: yellowgreen;
+    margin: 30px 0;
+}
+h5{
+    margin: 0 0 15px 0;
+}
+.entregas p{
+    padding: 3px;
+}
+.entregas p:hover{
+    border-bottom: 2px solid yellowgreen;
+}
+.divider{
+    margin: 30px 10px;
+    border-bottom: 1px solid white;
+}
+.form-control:focus{
+    border-color: yellowgreen;
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+    background: transparent;
+    color: white;
+}
+.form-control{
+    background: transparent;
+    color: white;
+}
+.form-control{
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    margin-right: 50%;
+}
+.input-group-text{
+    color: white !important;
+    border-color: yellowgreen !important;
+    background: transparent !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+#logica{
+    display: flex;
+}
+.input-group{
+    margin-bottom: 5px !important;
+}
+.btn{
+    background: yellowgreen;
+    border-color: yellowgreen;
+    color: black;
+}
+.btn:hover{
+    background: transparent;
+    border-color: yellowgreen;
+    color: yellowgreen;
+}
+#processos h4{
+    color: yellowgreen;
+}
+.total{
+    padding-top: 26px;
+}
+.entregas-home li h5{
+    margin: 5px;
+}
