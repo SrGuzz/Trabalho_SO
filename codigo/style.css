@@ -73,3 +73,26 @@ h5{
 .entregas-home li h5{
     margin: 5px;
 }
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.memory-display ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.memory-display li {
+    padding: 10px;
+    background-color: rgba(153, 205, 50, 0.072);
+    margin: 5px 0;
+    border-radius: 5px;
+    color: aliceblue;
+    border: solid 1px yellowgreen;
+}
+
+.stats {
+    margin-top: 20px;
+    font-weight: bold;
+}
